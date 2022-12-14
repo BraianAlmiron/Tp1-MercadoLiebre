@@ -1,0 +1,35 @@
+.footer{
+  padding: 5px 5px ;
+  background-color: var(--colorGrisClaro);
+}
+
+.footer__contenido{
+    background-color: white;
+    
+}
+
+.footer__icono{
+    color: var(--colorCeleste);
+    font-size: 2em;
+    border: none;
+    text-align: center;
+}
+
+.footer__articulo{
+    
+}
+
+.footer__articulo h4{
+    text-align: center;
+    color: var(--colorGrisOscuro);
+    margin-top: 2px;
+     
+}
+
+.footer__articulo p{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}

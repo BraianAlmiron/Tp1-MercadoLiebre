@@ -1,0 +1,29 @@
+.home__main{
+    padding: 5px 10px;
+    background-color: var(--colorGrisClaro);
+}
+
+.home__main__section{
+    background-color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.home__main__section h3{
+    font-size: 24px;
+}
+
+.home__main__section__article{
+    margin-bottom: 0;
+}
+
+.home__main__section__article h4{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+
+.home__main__section__article p{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
