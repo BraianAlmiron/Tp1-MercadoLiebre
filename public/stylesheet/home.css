@@ -1,29 +1,74 @@
 .home__main{
     padding: 5px 10px;
     background-color: var(--colorGrisClaro);
+    
 }
 
-.home__main__section{
-    background-color: white;
-    margin-top: 15px;
-    text-align: center;
+.home__main__section{    
+    margin-top: 15px;  
+    width: 90%;
+    margin: 0 auto;
+    
 }
 
 .home__main__section h3{
+    text-align: center;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .home__main__section__article{
-    margin-bottom: 0;
+    background-color: white;
+    
+    margin-bottom: 10px;
 }
 
 .home__main__section__article h4{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 3px;
 }
 
 .home__main__section__article p{
     font-size: 16px;
+    color: var(--colorGrisOscuro);
+    margin-top: 30px;
     margin-bottom: 3px;
+    display: none;
+}
+
+.home__main__section__article--info{
+    margin: 15px 15px;
+}
+
+.home__main__section__article--info span{
+    color: var(--colorVerde);
+}
+
+.home__main__section__article--truck{
+    border-radius: 50%;
+    color: var(--colorVerde);
+}
+
+
+@media (min-width: 361px){
+
+    .home__main__section__article{
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    .home__main__section__article p{
+        display: block;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .home__main__section__article{
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    .home__main__section__article p{
+        display: block;
+    }
 }

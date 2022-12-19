@@ -31,6 +31,11 @@
 .header__nav--menu{
     margin-top: 15px;
     margin-bottom: 15px;
+    display: none;
+}
+
+.header__nav__menu--login{
+    display: none;
 }
 
 .header__burger--menu{
@@ -43,4 +48,32 @@
     font-size: 25px;
     color: white;
     
+}
+
+@media (min-width: 361px){
+    .header__nav--menu{
+        display: block;
+    }
+
+    .header__nav__menu--login{
+        display: block;
+    }
+
+    .header__burger--menu{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .header__nav--menu{
+        display: block;
+    }
+
+    .header__nav__menu--login{
+        display: block;
+    }
+
+    .header__burger--menu{
+        display: none;
+    }
 }
