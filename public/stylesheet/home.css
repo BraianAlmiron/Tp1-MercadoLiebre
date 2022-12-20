@@ -23,6 +23,10 @@
     margin-bottom: 10px;
 }
 
+.home__main__section__article--img{
+    border-bottom: 1px solid var(--colorGrisClaro);
+}
+
 .home__main__section__article h4{
     font-size: 18px;
     font-weight: 400;
@@ -39,15 +43,18 @@
 
 .home__main__section__article--info{
     margin: 15px 15px;
+    
 }
 
 .home__main__section__article--info span{
     color: var(--colorVerde);
 }
 
-.home__main__section__article--truck{
-    border-radius: 50%;
+.home__main__section__article--info i{
+    border-radius: 70%;
+    border: 1px solid var(--colorVerde);
     color: var(--colorVerde);
+    padding: 5px;
 }
 
 
