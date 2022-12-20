@@ -51,7 +51,7 @@
 }
 
 .home__main__section__article--info i{
-    border-radius: 70%;
+    border-radius: 50%;
     border: 1px solid var(--colorVerde);
     color: var(--colorVerde);
     padding: 5px;
