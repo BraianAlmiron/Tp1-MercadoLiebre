@@ -10,12 +10,21 @@
 </head>
 <body class="home">
     <header class="header">
-   <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="" width="50%">
-   <p class="header__barra">Buscar productos, marcas</p>
-   <button class="header__search">
-    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-   </button>
-     <p> <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        <!-- <div class="header__main"> -->
+   <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="" >
+   <form action="" class="form__container">
+    <div class="form__box">
+        <input type="text" placeholder="Buscar productos,marcas">
+        <button class="header__search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+           </button>
+    </div>
+   </form>
+   
+
+     <p class="header__main--p"> <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+    <!-- </div> -->
+    
    <nav class="header__nav">
     <ul class="header__nav--menu">
         <li><a href="">Ofertas</a></li>
@@ -36,9 +45,10 @@
     </div>
 
 </header>
-
+<section class="home__banner">
+    <img class="home__banner-img" src="/images/img-home-banner.jpg" alt="">
+</section>
 <main class="home__main">
-    <img class="home__main--img" src="/images/img-home-banner.jpg" alt="" width="100%">
     <!-- Sección: Basado en la última visita -->
     <section class="home__main__section">
         <h3>Basado en tú última visita</h3>
@@ -176,3 +186,5 @@
     
 </body>
 </html>
+
+

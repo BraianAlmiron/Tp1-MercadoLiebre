@@ -1,36 +1,67 @@
 .header{
+    background-color: var(--colorAmarillo);   
     font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 10px;
+   gap: 5px;
 }
 
-.header p{
+.form__container {
+    width: 45%;
+}
+.form__box{
+    padding: 10px 5px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form__box input{
+background-color: transparent;
+border: none;
+outline: none;
+width: 80%;
+}
+
+.header__main--p{
     text-align: center;
+}
+
+
+.header__logo{
+    
+    width: 45%;
     
 }
 
-.header__logo{
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.header__logo img{
+    width: 90%;
 }
 
-.header__barra{
-    background-color: white;
-    color: gray;
-    border: solid 1px #666;
-    margin-left: 10px;
-    margin-right: 90px;
-}
+
+
+
 
 .header__search{
-    margin-top: 2px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    border: none;
+    border-left: 1px solid silver;
+    padding-left: 3px;
+    background-color: #fff;
+    position: relative;
+   height: 25px;
+    text-align: center;
+
+   
+  
+   
+    
 }
 
 
-.header__nav--menu{
+.header__nav{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     display: none;
 }
 
@@ -39,30 +70,80 @@
 }
 
 .header__burger--menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px auto 20px;
     border-radius: 5px;
     background-color: var(--colorCeleste);
-    width: 40px;
-    height: 32px;
     text-align:center;
     font-size: 25px;
     color: white;
-    
+    padding: 5px 8px;
 }
 
 @media (min-width: 361px){
+    .header{
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+      
+    .form__container {
+        width: 33%;
+    }
+
+    .form__box input{
+        width: 90%;
+        }
+    .header__search{
+        width: 7%;
+        margin: 0 auto;
+    }
+    .header__main--p{
+        width: 33%;
+        text-align: center;        
+    }
+    
+    
+    .header__logo{
+        width: 30%;
+    }
+    
+    .header__logo img{
+        width: 90%;
+    }
+
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
     .header__nav--menu{
         display: block;
+        
+        
     }
 
     .header__nav__menu--login{
         display: block;
     }
 
+    .header__nav ul{
+        display: flex;
+        gap: 0px 10px;
+    }
+
     .header__burger--menu{
         display: none;
     }
+
 }
+
 
 @media (min-width: 769px){
     .header__nav--menu{
