@@ -6,7 +6,7 @@
 
 body {
   font-family: var(--tipografiaGeneral), sans-serif;
-  background-color: var(--colorAmarillo);
+  /* background-color: var(--colorAmarillo); */
 }
 
 a {

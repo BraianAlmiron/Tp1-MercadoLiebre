@@ -1,0 +1,58 @@
+.register__main{
+    background-color: var(--colorGrisClaro);
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form__container-register{
+    width: 85%;
+}
+
+.form__container-register h4{
+    margin-bottom: 20px;
+}
+
+.form__box-register{
+    padding: 10px 5px;
+    border-radius: 8px;
+    background-color: #fff;
+margin-bottom: 30px;
+
+}
+
+.form__box-register input {
+    background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.radio__box{
+    margin-bottom: 20px;
+}
+.radio__box label{
+    padding: 20px 10px;
+    
+}
+
+.file__box{
+    padding: 20px 0px;
+}
+
+.form__box--button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button__primary{
+    background-color: var(--colorCeleste);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    
+}
