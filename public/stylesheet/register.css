@@ -38,6 +38,10 @@ margin-bottom: 30px;
     
 }
 
+.check__box{
+    padding: 3px 0;
+}
+
 .file__box{
     padding: 20px 0px;
 }
@@ -45,6 +49,7 @@ margin-bottom: 30px;
 .form__box--button{
     display: flex;
     justify-content: space-between;
+    
     
 }
 
@@ -54,5 +59,11 @@ margin-bottom: 30px;
     padding: 10px;
     border: none;
     border-radius: 6px;
+    transition: all 1s;
     
+}
+
+.button__primary:hover{
+    background-color:#0022AA;
+    cursor: pointer;
 }

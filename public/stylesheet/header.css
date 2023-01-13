@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.header__logo {
+.cotainer__logo {
   width: 45%;
 }
 
@@ -93,7 +93,7 @@
     text-align: center;
   }
 
-  .header__logo {
+  .cotainer__logo {
     width: 30%;
   }
 
