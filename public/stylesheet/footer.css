@@ -32,23 +32,20 @@
   margin-bottom: 10px;
 }
 
-.footer__copyright{
+.footer__copyright {
   text-align: center;
   font-size: 12px;
 }
 
 @media (min-width: 769px) {
-  .footer__contenido{
+  .footer__contenido {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
   }
 
-  .footer__articulo{
+  .footer__articulo {
     width: 30%;
     padding-bottom: 20px;
   }
-
-  
 }

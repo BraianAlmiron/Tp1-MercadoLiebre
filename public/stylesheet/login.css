@@ -1,63 +1,54 @@
-.login__main{
-    background-color: var(--colorGrisClaro);
-    padding: 25px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.login__main {
+  background-color: var(--colorGrisClaro);
+  padding: 25px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.form__container-login{
-    width: 85%;
-    
+.form__container-login {
+  width: 85%;
 }
 
-
-.form__box-login{
-    padding: 10px 5px;
-    border-radius: 8px;
-    background-color: #fff;
-margin-bottom: 40px;
-
+.form__box-login {
+  padding: 10px 5px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 40px;
 }
 
 .form__box-login input {
-    background-color: transparent;
+  background-color: transparent;
   border: none;
   outline: none;
   padding: 3px;
   font-size: 15px;
 }
 
-.form__box--buttons{
-    text-align: center;
+.form__box--buttons {
+  text-align: center;
 }
 
-.buttons__primary{
-    background-color: var(--colorCeleste);
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    transition: all 1s;
-
+.buttons__primary {
+  background-color: var(--colorCeleste);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  transition: all 1s;
 }
 
-.buttons__primary:hover{
-    background-color:#0022AA;
-    cursor: pointer;
+.buttons__primary:hover {
+  background-color: #0022aa;
+  cursor: pointer;
 }
 
-@media (min-width: 768px){
-
-   .form__container-login{
+@media (min-width: 768px) {
+  .form__container-login {
     width: 75%;
-   }
+  }
 
-
- .buttons__primary{
+  .buttons__primary {
     width: 100%;
- }
-
+  }
 }
-
